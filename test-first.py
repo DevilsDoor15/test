@@ -23,30 +23,31 @@
 # print(evenList)
 # print(evn(l1[2]))
 
-def countD(i,l2):
-    count = 0
-    for li in l2:
-        if i == li:
-            count = count + 1
-    return count
+# def countD(i,l2):
+#     count = 0
+#     for li in l2:
+#         if i == li:
+#             count = count + 1
+#     return count
 
 
 
-l2 = [1,2,5,1,2,5,7,8,9,5,6,6,6,4,4,5,2,1,0]
-temp = 1
-expOp = [1,2,4,5,6]
-l3 = []
-for i in l2:
-    if(countD(i,l2) > 1 and i not in l3):
-        l3.append(i)
+# l2 = [1,2,5,1,2,5,7,8,9,5,6,6,6,4,4,5,2,1,0]
+# temp = 1
+# expOp = [1,2,4,5,6]
+# l3 = []
+# for i in l2:
+#     if(countD(i,l2) > 1 and i not in l3):
+#         l3.append(i)
 
-print(l3)
+# print(l3)
 
-def mult(pric,qnt):
-    return pric * qnt
+# def mult(pric,qnt):
+#     return pric * qnt
 
-price = 10
-qnt = 5
-totalPrice = 0
-# totalPrice = price * qnt
-print(mult(price,qnt))
+# price = 10
+# qnt = 5
+# totalPrice = 0
+# # totalPrice = price * qnt
+# print(mult(price,qnt))
+
